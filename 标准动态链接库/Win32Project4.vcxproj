@@ -70,13 +70,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\调试</OutDir>
+    <OutDir>..\生成</OutDir>
     <TargetName>ShellDLL_64</TargetName>
     <IntDir>$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\调试</OutDir>
+    <OutDir>..\生成</OutDir>
     <TargetName>ShellDLL_32</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
